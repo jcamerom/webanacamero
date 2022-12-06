@@ -1,0 +1,38 @@
+/* Importar los estilos generales de index_estilos */
+@import url("index_estilos.css");
+
+/* Estilos específicos de la página servicios.html */
+
+/* Estilos de la etiqueta main */
+main {
+    background-image: url("../img/brochas.jpg");
+    color: black;
+    text-align: center;
+}
+
+/* Nueva clase "fotos" para las fotografías del main*/ 
+.fotos {
+    width: 60%;
+    border: 0.5rem solid black;
+}
+
+/* Estilos de la nueva clase "titulos" en el bloque aside y dentro del main */
+.titulos {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 7, 7);
+}
+
+/* Formato fuera de apuntes */
+.titulos2 {
+    image-rendering: optimizeQuality;
+}
+
+/* Estilos propios de la clase del icono de vuelta a inicio */
+.flecha_arriba {
+    position: fixed;
+    bottom: 10rem;
+    right: 14rem;
+    height: 10%;
+    width: 10%;
+}

@@ -1,0 +1,60 @@
+/* Importar los estilos generales de index_estilos */
+@import url("index_estilos.css");
+
+/* Estilos específicos de la página evento1.html */
+
+/* Formatos concretos para el main. Posición relativa respecto a las fotos en posición absoluta */
+main {
+    background-image: url("../img/Galeria.jpg");
+    font-size: 1rem;
+    font-weight:bold;
+    position: relative;
+    color: black;
+    min-height: 30rem;
+}
+
+/* Fotos en posición absoluta con sus medidas especificadas en clases */ 
+.pasarela1 {
+    position:absolute;
+    bottom: 3rem;
+    left: 2rem;
+    width: 10rem;
+    border: 0.3rem double black;
+}
+
+.pasarela2 {
+    position:absolute;
+    bottom: 2.5rem;
+    left: 14rem;
+    width: 10rem;
+    border: 0.3rem double black;
+}
+
+.pasarela3 {
+    position:absolute;
+    bottom: 2rem;
+    left: 26rem;
+    width: 10rem;
+    border: 0.3rem double black;
+}
+
+.pasarela4 {
+    position:absolute;
+    bottom: 2rem;
+    left: 55rem;
+    width: 8rem;
+    border: 0.3rem double black;
+}
+
+/* El enlace al video le damos la propiedad hover. Formato fuera de apuntes: opacity */
+.pasarela4:hover {
+    opacity: 0.6;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Títulos en main y aside con mismas propiedades */
+.titulos {
+    font-style: monospace;
+    font-size: 1.5rem;
+    color: red;
+}

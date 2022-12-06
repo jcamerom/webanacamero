@@ -1,0 +1,19 @@
+/* Importar los estilos generales de index_estilos */
+@import url("index_estilos.css");
+
+/* Estilos específicos de la página contacto.html */
+
+/* Formatos concretos para el main */
+main {
+    background-image: url("../img/brochas.jpg");
+    font-size: 1.3rem;
+    color: black;
+    font-weight:bold;
+}
+
+/* Títulos en main y aside con mismas propiedades */
+.titulos {
+    font-style: monospace;
+    font-size: 1.5rem;
+    color: red;
+}

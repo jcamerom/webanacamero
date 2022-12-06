@@ -1,0 +1,122 @@
+/* En este archivo principal están los estilos generales del proyecto que van a usar todas las páginas html */
+/* El resto de formatos más específicos para completar el proyecto los vamos a importar con @import */
+
+/* Estilos de la etiqueta header */
+header {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.5rem;
+    color: #000000;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.753);
+    border-radius: 70%;
+}
+
+/* En la etiqueta nav los bloques son enmaquetados con flexbox */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Las etiquetas article se usan en los botones de navegación y aside */
+article {
+    box-sizing: border-box;
+    font-size: 0.8rem;
+}
+
+/* La clase boton_nav aplica estilos sobre el contenido con enlaces de los botones nav */
+.boton_nav {
+    background-image: url("../img/BotonNav.jpg");
+    background-size: cover;
+    min-height: 3.5rem;
+    min-width: 5rem;
+    text-align: center;
+}
+
+/* Los enlaces de la clase boton_nav y boton_contacto pasan por los estados link, hover y active */
+a:link {
+    color: black;
+    font-size: 1.2rem;
+    width: max-content;
+}
+
+a:hover {
+    color: grey;  
+    font-size: 1.2rem;
+    width: max-content; 
+}
+
+a:active {
+    color: gainsboro;
+    font-size: 1.2rem;
+    width: max-content;
+}
+
+/* La sección contiene los bloques con las etiquetas main y aside, y son enmaquetados con flexbox*/
+.seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* Estilos de la etiqueta main */ 
+main {
+    flex-basis: 80%;
+    background-image: url("../img/index_descripcion.jpg");
+    background-size: cover;
+    border-radius: 3%;
+    border: 0.5rem solid white;
+    padding: 3%;
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* Estilos de la etiqueta aside */
+aside {
+    flex-basis: 20%;
+    text-align: left;
+    background-image: url("../img/Florales2.jpg");
+    background-size: auto;
+    border-radius: 5%;
+    border: 0.5rem solid white;
+    background-attachment: fixed;
+}
+
+/* Estilos del título del bloque aside */
+aside p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 7, 7);
+}
+
+/* Estilos distintos sobre los botones de aside */
+.boton_contacto {
+    padding: 1%;
+}
+
+.boton_contacto2 {
+    padding: 5%;
+}
+
+.boton_contacto3 {
+    border: 0.3rem solid whitesmoke;
+    border-radius: 10%;
+    background-color: hsl(59, 94%, 46%);
+    color: whitesmoke;
+    padding: 5%;
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 5rem;
+}
+
+/* Estilos de la etiqueta footer */
+footer {
+    background-image: url("../img/Trazos.jpg");
+    background-size: contain;
+    font-size: 0.8rem;
+}

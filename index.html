@@ -1,0 +1,92 @@
+<!--LMGSI. UD2. TE2: Sitio Web-->
+<!--Juan Camero Muñoz. 02/12/2022-->
+<!--Enlace Autoevaluación: -->
+
+<!--Página principal o index-->
+
+<!--Declaración del doctype en HTML5-->
+<!DOCTYPE html>
+
+<!--Apertura del codigo html, con lenguaje español-->
+<html leng="es">
+
+	<!--Definimos la cabecera-->
+	<head>
+		<!--Metadatos-->
+		<meta charset="utf-8"/>
+		<meta name="description" content="Sitio Web: Ana Camero"/>
+		
+		<!--Título de la pestaña-->
+		<title>Ana Camero | Peluquería, Maquillaje y Estilismo</title>
+
+		<!--Definir estilos generales en body-->
+		<style type="text/css">
+			body {
+				color: black;
+				font-style:normal;
+				font-family: monospace;
+    			font-size: 62.5%; /*--Usaremos medidas relativas para mejorar la accesibiliad*/
+			}
+		</style>
+
+		<!--Link de los ficheros css asociados-->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/index_estilos.css">
+
+	</head>
+
+	<!--Definimos el cuerpo. Usaremos etiquetas semánticas-->
+	<body>
+		<!--Header-->
+		<header>
+			<h1>ANA CAMERO</h1>
+			<h2>Hair and Make Up Artist</h2>
+			<h2>Beauty Trainer and Fashion Team Leader</h2>
+		</header>
+		
+		<!--Navegation: 5 enlaces a 5 páginas web. Pongo articles para luego enmaquetarlo con flexbox-->
+		<!--Destacamos con color goldenrod la página actual-->
+		<!--Nos sirve la clase "boton-nav" para darles los mismos estilos-->
+		<nav>
+			<article class="boton_nav"><a style="color: goldenrod" href="index.html">Inicio</a></article>
+			<article class="boton_nav"><a href="servicios.html">Servicios</a></article>
+			<article class="boton_nav"><a href="noticias.html">Noticias</a></article>
+			<article class="boton_nav"><a href="galeria.html">Galería</a></article>
+			<article class="boton_nav"><a href="contacto.html">Contacto</a></article>
+		</nav>
+
+		<br>
+
+		<!--Definimos section para main y aside con flexbox-->
+		<section class="seccion">
+			<!--Main con un texto de presentación-->
+			<main> 
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<p>¡Gracias por venir, bienvenid@s a mi Web!</p>
+				<p>Peinados, maquillaje y estilismo. Formadora y Jefa de Equipos en Pasarelas</p>
+				<p>Con más de 20 años como profesional, mi gran pasión es sacar el máximo partido de tu belleza.</p>
+				<p>Como centro de trabajo, más de 400 bodas de experiencia, constante actualización de nuevas tendencias</p>
+				<p>y múltiples participaciones liderando pasarelas de moda, publicidad y televisión</p> 
+			</main>
+
+			<!--Aside: Título y artículos más para enmaquetar con flexbox. En la clase "boton_contacto2" tuve que hacer una correción adicional-->
+			<!--Con la clase "boton_contacto3" para el enlace creamos un botón especial para pedir citas-->
+			<aside>
+				<p>Enlaces de interés</p>
+				<article class="boton_contacto"><img src="img/Facebook_Square_icon-icons.com_49948.png" alt="Facebook"><a href="https://www.facebook.com/profile.php?id=100048633768378" target="_blank"> Facebook</a></article>
+				<article class="boton_contacto2"><img src="img/instagram_logo_icon_186929.png" alt="Instagram"><a href="https://instagram.com/anacamerom?igshid=YmMyMTA2M2Y=" target="_blank"> Instagram</a></article>
+				<article class="boton_contacto"><img src="img/google_maps_icon_138521.png" alt="Google Maps"><a href="https://maps.app.goo.gl/9VhEhV6qeK7M7oAG6" target="_blank"> Google Maps</a></article>
+				<br><br>
+				<article><img src="img/appointment_icon_179680.png" alt="Pedir Cita"><a class="boton_contacto3" href="contacto.html"> Pedir cita</a></article>
+			</aside>
+		</section>
+		
+		<!--Definimos footer. Agradecimientos por las fotos y plantillas usadas por la página gratuita freepik y los artículos y fotos de la revista Sevilla Magazine-->
+		<footer>
+			<h3>Agradecimientos</h3>
+			<p>Imágenes de <a href="https://www.freepik.es" target="blank">Freepik</a></p>
+			<p>Noticias de Sevilla Magazine. Todos los derechos reservados <a href="https://sevillamagazine.es" target="_blank">Sevilla Magazine.</a></p>
+		</footer>
+	</body>
+
+</html>

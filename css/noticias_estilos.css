@@ -1,0 +1,32 @@
+/* Importar los estilos generales de index_estilos */
+@import url("index_estilos.css");
+
+/* Estilos específicos de la página noticias.html */
+
+/* Estilos de la etiqueta main */
+main {
+    background-image: url("../img/Revista2.jpg");
+    color: black;
+    font-weight:bold;
+}
+
+/* Estilos de la clase del icono de vuelta a inicio */
+.flecha_arriba {
+    position: fixed;
+    bottom: 10rem;
+    right: 14rem;
+    height: 10%;
+    width: 10%;
+}
+
+/* Estilos de la nueva clase "titulos" en el bloque aside y dentro del main */
+.titulos {
+    font-style: monospace;
+    font-size: 1.5rem;
+    color: black;
+}
+
+aside p {
+    color: red;
+    font-size: 1.5rem;
+}

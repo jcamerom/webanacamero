@@ -1,0 +1,36 @@
+/* Importar los estilos generales de index_estilos */
+@import url("index_estilos.css");
+
+/* Estilos específicos de la página galeria.html */
+
+/* Estilos concretos para el main añadidos */
+main {
+    background-image: url("../img/Galeria.jpg");
+    color: black;
+    font-weight: bold;
+}
+
+/* Formato de lista delos eventos destacados */
+ul {
+    list-style-type: disc;
+}
+
+/* Formato específico para las fotos */
+.fotos {
+    width: 10rem;
+    border: 0.3rem double black;
+    float: right;
+}
+
+/* Estilos concretos para la clase "titulos" */
+.titulos {
+    font-style: monospace;
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* Estilos específicos del título del aside */
+aside p {
+    color: red;
+    font-size: 1.5rem;
+}
